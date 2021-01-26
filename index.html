@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E ticaret sitem-Sepetim</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #eee;">
+    <div class="container" style="text-align: center;font-size: 20px;">
+        <img src="images/bm.png" >
+        <p>Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü Web Proglamlama 1 dersi final </p>
+        <p>sorusu</p>
+        <p>Dr. Öğr. Üyesi Fehim KÖYLÜ</p>
+        <h3>Alışveriş Uygulaması</h3>
+        <p>Vermek istediğiniz siparişler için aşağıdaki listeden seçerek adedini belirtiniz.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <div class="card-header">
+                      Ekmek
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title" style="font-size: 30px;">2 ₺ <span style="opacity: 0.5;">/ adet</span></h5>
+                      <p class="card-text" id="somun">Somun ekmek</p>
+                      <p class="card-text">200 gr</p>
+                      
+                      <a href="#" class="btn btn-primary w-100" onclick="newElement()">Sepete Ekle</a>
+                    </div>
+                    
+                  </div>
+            </div>
+            <div class="col-md-4"><div class="card text-center">
+                <div class="card-header">
+                  Çikolata
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 30px;">5 ₺  <span style="opacity: 0.5;">/ adet</span></h5>
+                  <p class="card-text">Bitter Çikolata</p>
+                  <p class="card-text">60 gr</p>
+                  <a href="#" class="btn btn-primary w-100" onclick="newElement()">Sepete Ekle</a>
+                </div>
+               
+              </div></div>
+            <div class="col-md-4"><div class="card text-center">
+                <div class="card-header">
+                  Domates
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size: 30px;">6 ₺  <span style="opacity: 0.5;">/ kg</span></h5>
+                  <p class="card-text">Domates</p>
+                  <p class="card-text">Antalya Sera</p>
+                  
+                  <a href="#" class="btn btn-primary w-100" onclick="newElement()">Sepete Ekle</a>
+                </div>
+               
+              </div></div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                   <p style="font-size: 25px;opacity: 0.5px;">Siparişleriniz</p>
+                    
+                   
+                  </div>
+                  
+                  <ul id="myUL">
+                    <li><span id="etext">Somun Ekmek</span> (<span id="eadet">2</span>) <span id="efiyat">4</span>₺</li>
+                    <li><span>Domates</span> (<span id="dadet">1</span>) <span id="dfiyat">6</span>₺</li>
+                    <li><span>Çikolata</span> (<span id="cadet">1</span>) <span id="cfiyat">5</span>₺</li>
+                    <li style="color: green;">İndirim Kuponu <br>erciyes-bilgisayar </li>
+                   
+                    <li>Toplam Fiyat</li>
+                    
+                  </ul>
+            </div>
+        </div>
+    </div>
+    <footer style="margin-top: 300px;">
+        <div class="container">
+            © Fehim KÖYLÜ Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
+        </div>
+    </footer>
+   
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
