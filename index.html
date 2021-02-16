@@ -25,10 +25,9 @@
                     </div>
                     <div class="card-body">
                       <h5 class="card-title" style="font-size: 30px;">2 ₺ <span style="opacity: 0.5;">/ adet</span></h5>
-                      <p class="card-text" id="somun">Somun ekmek</p>
+                      <p class="card-text" id="somun">Somun Ekmek</p>
                       <p class="card-text">200 gr</p>
-                      
-                      <a href="#" class="btn btn-primary w-100" onclick="newElement()">Sepete Ekle</a>
+                      <a href="#" class="btn btn-primary w-100" onclick="newElement('Somun Ekmek')">Sepete Ekle</a>
                     </div>
                     
                   </div>
@@ -41,7 +40,7 @@
                   <h5 class="card-title" style="font-size: 30px;">5 ₺  <span style="opacity: 0.5;">/ adet</span></h5>
                   <p class="card-text">Bitter Çikolata</p>
                   <p class="card-text">60 gr</p>
-                  <a href="#" class="btn btn-primary w-100" onclick="newElement()">Sepete Ekle</a>
+                  <a href="#" class="btn btn-primary w-100" onclick="newElement('Çikolata')">Sepete Ekle</a>
                 </div>
                
               </div></div>
@@ -54,7 +53,7 @@
                   <p class="card-text">Domates</p>
                   <p class="card-text">Antalya Sera</p>
                   
-                  <a href="#" class="btn btn-primary w-100" onclick="newElement()">Sepete Ekle</a>
+                  <a href="#" class="btn btn-primary w-100" onclick="newElement('Domates')">Sepete Ekle</a>
                 </div>
                
               </div></div>
@@ -70,20 +69,27 @@
                   </div>
                   
                   <ul id="myUL">
-                    <li><span id="etext">Somun Ekmek</span> (<span id="eadet">2</span>) <span id="efiyat">4</span>₺</li>
-                    <li><span>Domates</span> (<span id="dadet">1</span>) <span id="dfiyat">6</span>₺</li>
-                    <li><span>Çikolata</span> (<span id="cadet">1</span>) <span id="cfiyat">5</span>₺</li>
-                    <li style="color: green;">İndirim Kuponu <br>erciyes-bilgisayar </li>
+                    <li><span id="etext">Somun Ekmek</span> (<span id="eadet">2</span>) <span id="efiyat" class="price">4</span>₺</li>
+                    <li><span id="dtext">Domates</span> (<span id="dadet">1</span>) <span id="dfiyat" class="price">6</span>₺</li>
+                    <li><span id="ctext">Çikolata</span> (<span id="cadet">1</span>) <span id="cfiyat" class="price">5</span>₺</li>
+                    <div style="padding: 10px;background-color: white;color: green;padding-left: 32px;">İndirim Kuponu <span style="margin-left: 167px;">1₺</span> <br>erciyes-bilgisayar
+                      
+                      </div>
                    
-                    <li>Toplam Fiyat</li>
+                   
                     
                   </ul>
+                  <div style="padding: 10px;background-color: white;color: black;padding-left: 32px;">Toplam Fiyat
+                  <span style="margin-left: 185px;"><b id="total">14₺</b></span>
+                  </div>
+                  
             </div>
         </div>
     </div>
-    <footer style="margin-top: 300px;">
-        <div class="container">
-            © Fehim KÖYLÜ Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü
+    <footer>
+        <div class="container" style="text-align: center;margin-top: 20px;margin-bottom: 40px;">
+            <p>© Fehim KÖYLÜ Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü</p>
+            <span><a href="#">Bölüm Sayfası</a></span><span  style="margin-left: 10px;"><a href="#">Alışveriş Kuralları</a></span><span  style="margin-left: 10px;"><a href="#">Destek</a><span>
         </div>
     </footer>
    
